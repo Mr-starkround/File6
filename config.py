@@ -11,19 +11,19 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6813302080:AAETIJRBxquFMfw8_kpN_L70aHAs1_yhAs8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6751177416:AAGWVFCeVT6mSCNGB9fbmc1l1PV_xCWUHo8")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "29893619"))
+APP_ID = int(os.environ.get("APP_ID", "20913084"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "2b6be8f877186914e6ba45c334671611")
+API_HASH = os.environ.get("API_HASH", "67eb42c8167df3ebe8935e961e3349e5")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001905139467"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002017567460"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "542434322")
+OWNER = os.environ.get("OWNER", "1228099043")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
@@ -39,8 +39,8 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://zqrdigxs:8AqegrJLvIjXOdlKXQOQd7ebT7rPsl-b@rain.db.elephantsql.com/zqrdigxs")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001869711042"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001935857563"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002002557188"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1002126223505"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 

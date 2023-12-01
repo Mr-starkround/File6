@@ -14,16 +14,16 @@ load_dotenv("config.env")
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6691135349:AAEOw0QR-IDSVEoGfB7nZzIwGIbV_23vIQQ")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "28123112"))
+APP_ID = int(os.environ.get("APP_ID", "20913084"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "df9ee8ee91ee0496ea4d7759b8b999d1")
+API_HASH = os.environ.get("API_HASH", "67eb42c8167df3ebe8935e961e3349e5")
 
 # ID Channel Database
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001948604396"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "6443970114")
+OWNER = os.environ.get("OWNER", "1228099043")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5950326801").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1228099043").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 

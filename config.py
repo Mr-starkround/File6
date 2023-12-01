@@ -14,16 +14,16 @@ load_dotenv("config.env")
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6691135349:AAEOw0QR-IDSVEoGfB7nZzIwGIbV_23vIQQ")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "27223027"))
+APP_ID = int(os.environ.get("APP_ID", "28123112"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "468263153be169687a24b59cd70a944c")
+API_HASH = os.environ.get("API_HASH", "df9ee8ee91ee0496ea4d7759b8b999d1")
 
 # ID Channel Database
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001948604396"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "5950326801")
+OWNER = os.environ.get("OWNER", "6443970114")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
@@ -68,7 +68,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Tru
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((844432220, 1250450587, 1750080384, 182990552, 1748872441, 5950326801, 1228099043))
+ADMINS.extend((844432220, 1250450587, 1750080384, 182990552, 1748872441, 6443970114, 1228099043))
 
 
 LOG_FILE_NAME = "logs.txt"
